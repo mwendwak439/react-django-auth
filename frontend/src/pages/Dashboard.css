@@ -1,0 +1,63 @@
+.dash-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f4f5f7;
+  padding: 24px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+.dash-card {
+  background: #fff;
+  width: 100%;
+  max-width: 480px;
+  padding: 40px 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.dash-card h1 {
+  margin: 0 0 8px;
+  font-size: 1.6rem;
+  color: #1c1e21;
+}
+
+.dash-card .email {
+  margin: 0 0 6px;
+  color: #606770;
+  font-size: 0.95rem;
+}
+
+.dash-card .meta {
+  margin: 0 0 24px;
+  color: #8a8d91;
+  font-size: 0.8rem;
+}
+
+.dash-card.error {
+  color: #b3261e;
+  background: #fdecea;
+}
+
+.dash-card button {
+  padding: 11px 24px;
+  background: #1b74e4;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.dash-card button:hover:not(:disabled) {
+  background: #166fe5;
+}
+
+.dash-card button:disabled {
+  background: #9cb8e4;
+  cursor: not-allowed;
+}

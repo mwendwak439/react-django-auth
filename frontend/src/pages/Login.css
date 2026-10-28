@@ -1,0 +1,121 @@
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f4f5f7;
+  padding: 24px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+.auth-card {
+  background: #fff;
+  width: 100%;
+  max-width: 420px;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.auth-card h1 {
+  margin: 0 0 6px;
+  font-size: 1.6rem;
+  color: #1c1e21;
+}
+
+.auth-card .subtitle {
+  margin: 0 0 24px;
+  color: #606770;
+  font-size: 0.95rem;
+}
+
+.auth-card label {
+  display: block;
+  margin-bottom: 14px;
+  font-size: 0.9rem;
+  color: #1c1e21;
+  font-weight: 500;
+}
+
+.auth-card input {
+  display: block;
+  width: 100%;
+  margin-top: 6px;
+  padding: 10px 12px;
+  border: 1px solid #ccd0d5;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: border-color 0.15s;
+}
+
+.auth-card input:focus {
+  outline: none;
+  border-color: #1b74e4;
+}
+
+.auth-card .error {
+  display: block;
+  margin-top: 4px;
+  color: #d93025;
+  font-size: 0.82rem;
+  font-weight: 400;
+}
+
+.auth-card .form-error {
+  background: #fdecea;
+  color: #b3261e;
+  padding: 10px 12px;
+  border-radius: 8px;
+  margin-bottom: 14px;
+  font-size: 0.9rem;
+}
+
+.auth-card .form-success {
+  background: #e6f4ea;
+  color: #137333;
+  padding: 10px 12px;
+  border-radius: 8px;
+  margin-bottom: 14px;
+  font-size: 0.9rem;
+}
+
+.auth-card button {
+  width: 100%;
+  margin-top: 8px;
+  padding: 11px 16px;
+  background: #1b74e4;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.auth-card button:hover:not(:disabled) {
+  background: #166fe5;
+}
+
+.auth-card button:disabled {
+  background: #9cb8e4;
+  cursor: not-allowed;
+}
+
+.auth-card .switch {
+  margin-top: 18px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #606770;
+}
+
+.auth-card .switch a {
+  color: #1b74e4;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.auth-card .switch a:hover {
+  text-decoration: underline;
+}
